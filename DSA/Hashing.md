@@ -10,11 +10,11 @@ We already know Linear search O(n) and Binary Search O(logn). We want still fast
 
 So Idea of Hashing Technique is introduced. Using hashing technique the searching time can be achieved with O(1).
 
-![Hashing-1.heic](assets/Hashing/jpg/Hashing-1.jpeg)
+![Hashing-1](/assets/Hashing/jpg/Hashing-1.jpeg)
 
 **Ideal Hashing** 
 
-![Hashing-2](assets/Hashing/jpg/Hashing-2.jpeg)
+![Hashing-2](/assets/Hashing/jpg/Hashing-2.jpeg)
 
 Drawback of Ideal hashing is Space required is too Large.
 
@@ -28,11 +28,11 @@ It’s non Ideal Hash function.
 
 h(x) = x % 10 → [ Many to One ]
 
-![Hashing-3](assets/Hashing/jpg/Hashing-3.jpeg)
+![Hashing-3](/assets/Hashing/jpg/Hashing-3.jpeg)
 
 **Solutions**
 
-![Hashing-4](assets/Hashing/jpg/Hashing-4.jpeg)
+![Hashing-4](/assets/Hashing/jpg/Hashing-4.jpeg)
 
 **Open Hashing** 
 
@@ -40,10 +40,10 @@ Consume Extra Space
 
 **Chaining Method**
 
-![Hashing-5](assets/Hashing/jpg/Hashing-5.jpeg)
+![Hashing-5](/assets/Hashing/jpg/Hashing-5.jpeg)
 
 **Problem with Hashing is choosing improper hash function.**
-![Hashing-6](assets/Hashing/jpg/Hashing-6.jpeg)
+![Hashing-6](/assets/Hashing/jpg/Hashing-6.jpeg)
 
 **Code for Chaining Method**
 
