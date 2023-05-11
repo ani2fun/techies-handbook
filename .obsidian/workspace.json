@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2f913e8d6693c913",
+        "id": "3e241a893cd4fefe",
         "type": "tabs",
         "children": [
           {
-            "id": "e5225c91a15b69bd",
+            "id": "dd68f1365f052b62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 330.5
   },
   "right": {
     "id": "77dcfc560922edad",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,8 +102,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
+                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -143,49 +144,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "e5225c91a15b69bd",
+  "active": "dd68f1365f052b62",
   "lastOpenFiles": [
-    "mixed/ssl-security.md",
-    "mixed/ssl-certs.md",
-    "mixed/markdown.md",
-    "mixed/http-status-codes.md",
-    "mixed/github.md",
-    "mixed",
-    "assortisement/ssl-security.md",
-    "assortisement/ssl-certs.md",
-    "assortisement/markdown.md",
-    "assortisement/http-status-codes.md",
-    "assortisement/github.md",
-    "assortisement",
-    "applications/kasm.md",
-    "infrastructure/kubernetes/kubernetes.md",
-    "infrastructure/kubernetes/kubectl.md",
-    "infrastructure/kubernetes/kubernetes-dns.md",
-    "applications/grafana.md",
-    "cloud-computing/what-is-cloud-computing.md",
-    "networking/wireguard.md",
-    "infrastructure/docker/docker.md",
-    "infrastructure/docker/docker-compose.md",
-    "networking/dns.md",
-    "networking/dns-record-mailserver.md",
-    "networking/dns-record-types.md",
-    "networking/smtp.md",
-    "networking/tcp.md",
-    "networking/tls.md",
+    "System Design/tutorials/Netflix/pics/Combining lists of multiple ratings into one.png",
+    "System Design/tutorials/Netflix/Project Description For Netflix.md",
+    "System Design/tutorials/Netflix/pics/Movie mapping to their ranks.png",
+    "System Design/tutorials/Netflix/pics/Storing sets in a key-value storage.png",
+    "System Design/tutorials/Netflix/pics/combining similar groups.png",
+    "System Design/tutorials/Netflix/pics",
+    "System Design/tutorials/Netflix/local",
+    "System Design/tutorials/Netflix/untitled folder",
+    "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault/resources/images/combining.md",
+    "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault/resources/images",
+    "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault/resources",
+    "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault",
+    "Users/aniket/Development/Obsidian/obsidian-vault",
+    "Users/aniket/Development/Obsidian",
+    "Users/aniket/Development",
+    "Users/aniket",
+    "pics/combining.md",
+    "resources/images/combining similar groups.png",
+    "System Design/Hexagonal Architecture/Food-Ordering-System.md",
+    "Excalidraw/Food-Ordering-System 2023-05-09 23.17.52.excalidraw.md",
     "README.md",
-    "to be sorted",
-    "_assets/images",
-    "_assets",
-    "assets/images/san-juan-mountains.jpg",
-    "assets/images",
-    "assets/san-juan-mountains.jpg",
-    "assets/20061021-Sneffels-Range-Autumn.jpg",
-    "assets",
-    "OS",
-    "repos/cheat-sheets/misc",
-    "repos/cheat-sheets"
+    "Excalidraw/Drawing 2023-05-09 07.45.30.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.md",
+    "DSA/Graph.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
+    "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
+    "Excalidraw/Scripts/Downloaded/Slideshow.svg",
+    "Excalidraw/Scripts/Downloaded/Slideshow.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap connector.svg",
+    "Excalidraw/Scripts/Downloaded/Mindmap connector.md",
+    "Excalidraw/Scripts/Downloaded/Fixed vertical distance.md",
+    "Excalidraw/Scripts/Downloaded/Grid Selected Images.md",
+    "Excalidraw/Scripts/Downloaded/Fixed inner distance.md",
+    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md"
   ]
 }
