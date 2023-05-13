@@ -20,6 +20,13 @@ We'll cover the following
   - [Complexity measures](#complexity-measures-1)
     - [Time Complexity](#time-complexity-1)
     - [Space complexity](#space-complexity-1)
+- [Feature 3 Find Median Age](#feature-3-find-median-age)
+  - [Description](#description-2)
+  - [Solution](#solution-2)
+  - [Feature-3-Code](#feature-3-code)
+  - [Complexity measures](#complexity-measures-2)
+    - [Time Complexity](#time-complexity-2)
+    - [Memory complexity](#memory-complexity)
 
 
 ## [Introduction](#Introduction)
@@ -41,7 +48,7 @@ We will need to introduce the following features to implement the improvements d
     
 -   [**Feature # 2:**](#feature-2-fetch-top-movies) Enable the user to view the top-rated movies worldwide, given that we have movie rankings available separately for different geographic regions.
     
--   [**Feature # 3:**]() As part of a demographic study, we are interested in the median age of our viewers. We want to implement a functionality whereby the median age can be updated efficiently whenever a new user signs up for Netflix.
+-   [**Feature # 3:**](#feature-3-find-median-age) As part of a demographic study, we are interested in the median age of our viewers. We want to implement a functionality whereby the median age can be updated efficiently whenever a new user signs up for Netflix.
     
 -   [**Feature # 4:**]() For efficiently distributing content to different geographic regions and for program recommendation to viewers, we want to determine titles that are gaining or losing popularity scores.
     
@@ -168,9 +175,53 @@ The time complexity will be O(n×k<sup>2</sup>), where k is the number of the li
 #### Space complexity 
 O(1) , as constant space was utilized.
 
-</details>
+</details><hr>
 
-<hr>
+<details>
+<summary>Feature 3 Find Median Age</summary>
+## Feature 3 Find Median Age
+Implementing the "Find Median Age" feature for our "Netflix" project.
+
+### Description
+
+Our third task is building a filter that will fetch relevant content based on the age of the users for a specific country or region. For this, we use the median age of users and the preferred content for users that fall into that specified category.
+
+Because the number of users is constantly increasing on the Netflix platform, we need to figure out a structure or design that updates the median age of users in real-time. We will have an array that constantly receives age values, and we will output the median value after each new data point.
+
+Let’s understand this better with an illustration:
+<div>
+    <img src="./pics/Median%20Age-1.png"  width="50%" height="30%">
+</div>
+<div>
+    <img src="./pics/Median%20Age-2.png"  width="50%" height="30%">
+</div>
+
+### Solution
+We will assume that ‘x’ is the median age of a user in a list. Half of the ages in the list will be smaller than (or equal to) ‘x’, and the other half will be greater than (or equal to) ‘x’. We can divide the list into two halves: one half to store the smaller numbers (say smallList), and one half to store the larger numbers (say largeList). The median of all ages will either be the largest number in the smallList or the smallest number in the largeList. If the total number of elements is even, we know that the median will be the average of these two numbers. The best data structure for finding the smallest or largest number among a list of numbers is a Heap.
+
+Here is how we will implement this feature:
+
+First, we will store the first half of the numbers (smallList) in a Max Heap. We use a Max Heap because we want to know the largest number in the first half of the list.
+Then, we will store the second half of the numbers (largeList) in a Min Heap, because we want to know the smallest number in the second half of the list.
+We can calculate the median of the current list of numbers using the top element of the two heaps.
+Let’s look at the code for this solution below:
 
 
+### [Feature-3-Code](https://github.com/ani2fun/java-kotlin-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_3/MedianOfAges.java)
+
+
+### Complexity measures
+
+| **Time Complexity** | **Memory complexity**|
+| ------------------- | -------------------- |
+| Insert Age: O(logn) | O(n)                 |
+| Find Median: O(1)   |                      |
+
+#### Time Complexity
+The time complexity of the Insert Age will be O(logn) because we inserted in the heap. The time complexity of the Find Median will be O(1) because we can find the median from the top elements of the heaps.
+
+#### Memory complexity
+The memory complexity will be O(n) because we will be storing all the numbers at any time.
+
+</details><hr>
 

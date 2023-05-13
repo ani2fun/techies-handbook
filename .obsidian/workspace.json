@@ -150,8 +150,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "45ef5d7a09362cc9",
+  "active": "dd68f1365f052b62",
   "lastOpenFiles": [
+    "System Design/tutorials/Netflix/pics/Median Age-2.png",
+    "System Design/tutorials/Netflix/pics/Median Age-1.png",
     "infrastructure/docker/docker.md",
     "infrastructure/messaging/Kafka-3-Setup.md",
     "infrastructure/messaging",
@@ -187,7 +189,6 @@
     "Excalidraw/Scripts/Downloaded/Slideshow.md",
     "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap format.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap connector.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap connector.md",
     "Excalidraw/Scripts/Downloaded/Fixed vertical distance.md",
     "Excalidraw/Scripts/Downloaded/Grid Selected Images.md",
@@ -196,7 +197,6 @@
     "Excalidraw/Scripts/Downloaded/Expand rectangles vertically.md",
     "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md",
     "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally.md",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
-    "Excalidraw/Scripts/Downloaded/Elbow connectors.md"
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md"
   ]
 }
