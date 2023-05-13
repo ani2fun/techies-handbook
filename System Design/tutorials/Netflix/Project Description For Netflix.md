@@ -90,7 +90,7 @@ Use this vector as a key to insert the titles into a Hash Map. All anagrams will
 Store the vector of the calculated character counts in the same Hash Map as a key and assign the respective set of anagrams as its value.
 Return the values of the Hash Map, since each value will be an individual set.
 Let’s look at the following illustration to clarify this process:
-![](./pics/Storing%20sets%20in%20a%20key-value%20storage.png)
+<img src="./pics/Storing%20sets%20in%20a%20key-value%20storage.png" width="60%" height="60%"/>
 
 Let’s look at the code for the solution below:
 ```java
@@ -177,6 +177,7 @@ Implementing the "Fetch Top Movies" feature for our "Netflix" project.
 Now, we need to build a criterion so the top movies from multiple countries will combine into a single list of top-rated movies. In order to scale, the content search is performed in a distributed fashion. Search results for each country are produced in separate lists. Each member of a given list is ranked by popularity, with 1 being most popular and popularity decreasing as the rank number increases.
 
 Let’s say that the following titles are represented by the provided IDs:
+
 <img src="./pics/Movie%20mapping%20to%20their%20ranks.png"  width="40%" height="30%">
 
 We’ll be given n arrays that are all sorted in ascending order of popularity rank. We have to combine these lists into a single list that will be sorted by rank in ascending order, meaning from best to worst.
@@ -456,4 +457,6 @@ The time complexity will be O(n×k<sup>2</sup>), where k is the number of the li
 O(1) , as constant space was utilized.
 
 </details>
+
+
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
+                "file": "infrastructure/messaging/Kafka-3-Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
+                "file": "infrastructure/messaging/Kafka-3-Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
+                "file": "infrastructure/messaging/Kafka-3-Setup.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md"
+                "file": "infrastructure/messaging/Kafka-3-Setup.md"
               }
             }
           }
@@ -150,10 +150,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dd68f1365f052b62",
+  "active": "45ef5d7a09362cc9",
   "lastOpenFiles": [
-    "System Design/tutorials/Netflix/pics/Combining lists of multiple ratings into one.png",
+    "infrastructure/docker/docker.md",
+    "infrastructure/messaging/Kafka-3-Setup.md",
+    "infrastructure/messaging",
+    "databases/postgres.md",
+    "tools/homebrew.md",
     "System Design/tutorials/Netflix/Project Description For Netflix.md",
+    "System Design/tutorials/Netflix/pics/Combining lists of multiple ratings into one.png",
     "System Design/tutorials/Netflix/pics/Movie mapping to their ranks.png",
     "System Design/tutorials/Netflix/pics/Storing sets in a key-value storage.png",
     "System Design/tutorials/Netflix/pics/combining similar groups.png",
@@ -167,7 +172,6 @@
     "Users/aniket/Development/Obsidian/obsidian-vault",
     "Users/aniket/Development/Obsidian",
     "Users/aniket/Development",
-    "Users/aniket",
     "pics/combining.md",
     "resources/images/combining similar groups.png",
     "System Design/Hexagonal Architecture/Food-Ordering-System.md",
@@ -193,9 +197,6 @@
     "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md",
     "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally.md",
     "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
-    "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
-    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
-    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md"
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.md"
   ]
 }
