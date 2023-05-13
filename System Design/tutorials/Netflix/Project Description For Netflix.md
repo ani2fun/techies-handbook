@@ -9,12 +9,14 @@ We'll cover the following
 - [Feature 1 Group Similar Titles](#feature-1-group-similar-titles)
   - [Description](#description)
   - [Solution](#solution)
+  - [Feature-1-Code](#feature-1-code)
   - [Complexity measures](#complexity-measures)
     - [Time Complexity](#time-complexity)
     - [Space complexity](#space-complexity)
 - [Feature 2 Fetch Top Movies](#feature-2-fetch-top-movies)
   - [Description](#description-1)
   - [Solution](#solution-1)
+  - [Feature-2-Code](#feature-2-code)
   - [Complexity measures](#complexity-measures-1)
     - [Time Complexity](#time-complexity-1)
     - [Space complexity](#space-complexity-1)
@@ -64,6 +66,7 @@ Understanding these feature requests and designing their solutions will help us 
 
 Before we start, Think about how you would implement these features. As you do, you’ll realize some of the underlying problems that you’ll need to solve.
 
+<hr>
 <details><summary>Feature 1 Group Similar Titles</summary>
 <p>
 ## Feature 1 Group Similar Titles
@@ -93,62 +96,9 @@ Let’s look at the following illustration to clarify this process:
 <img src="./pics/Storing%20sets%20in%20a%20key-value%20storage.png" width="60%" height="60%"/>
 
 Let’s look at the code for the solution below:
-```java
-import java.util.*;
-class Solution {
-    public static List<List<String>> groupTitles(String[] strs){
-      if (strs.length == 0) 
-            return new ArrayList<List<String>>();
 
-        Map<String, List<String>> res = new HashMap<String, List<String>>();
 
-        int[] count = new int[26];
-        for (String s : strs) {
-            Arrays.fill(count, 0);
-            for (char c : s.toCharArray()){
-                int index = c - 'a';
-                count[index]++;
-            }
-
-            StringBuilder delimStr = new StringBuilder("");
-            for (int i = 0; i < 26; i++) {
-                delimStr.append('#');
-                delimStr.append(count[i]);
-            }
-            
-            String key = delimStr.toString();
-            if (!res.containsKey(key)) 
-                res.put(key, new ArrayList<String>());
-            
-            res.get(key).add(s);
-        }
-
-        return new ArrayList<List<String>>(res.values());
-    }
-
-    public static void main(String[] args) {
-        // Driver code
-        String titles[] = {"duel","dule","speed","spede","deul","cars"};
-
-        List<List<String>> gt = groupTitles(titles);
-        String query = "spede"; 
-
-        // Searching for all titles
-        for (List<String> g : gt){
-            if (g.contains(query))
-                System.out.println(g);
-        }
-  }
-}
-
-/**
- * 
- * Output
-[speed, spede]
- * */ 
-
-```
-
+### [Feature-1-Code](https://github.com/ani2fun/java-kotlin-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_1/Solution.java)
 ### Complexity measures
 
 | **Time Complexity** | **Space complexity** |
@@ -166,6 +116,8 @@ Since every string is being stored as a value in the dictionary whose size can b
 </p>
 
 </details>
+
+<hr>
 
 <details><summary>Feature 2 Fetch Top Movies</summary>
 
@@ -201,248 +153,8 @@ Keep repeating the above step until one list points to a null value.
 Connect the non-null list to the merged one and return.
 Let’s look at the code for the solution below:
 
+### [Feature-2-Code](https://github.com/ani2fun/java-kotlin-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_2/_Main.java)
 
-`Main.java`
-```java
-class MergeSortList{
-  public static LinkedListNode merge2Country(LinkedListNode l1, LinkedListNode l2) {
-    LinkedListNode dummy = new LinkedListNode(-1);
-
-    LinkedListNode prev = dummy;
-    while (l1 != null && l2 != null) {
-        if (l1.data <= l2.data) {
-            prev.next = l1;
-            l1 = l1.next;
-        } else {
-            prev.next = l2;
-            l2 = l2.next;
-        }
-        prev = prev.next;
-    }
-    
-    if (l1 == null)
-      prev.next = l2;
-    else
-      prev.next = l1;
-
-    return dummy.next;
-  }
-  
-  public static LinkedListNode mergeKCounty(List<LinkedListNode> lists) {
-
-    if (lists.size() > 0){
-      LinkedListNode res = lists.get(0);
-
-      for (int i = 1; i < lists.size(); i++)
-        res = merge2Country(res, lists.get(i));
-
-      return res;
-    }
-    return new LinkedListNode(-1);
-  }
-
-  public static void main(String[] args) {
-
-    LinkedListNode a = LinkedList.createLinkedList(new int[] {11,41,51});
-
-    LinkedListNode b = LinkedList.createLinkedList(new int[] {21,23,42});
-
-    LinkedListNode c = LinkedList.createLinkedList(new int[] {25,56,66,72});
-    
-    List<LinkedListNode> list1 = new ArrayList<LinkedListNode>();
-    list1.add(a);
-    list1.add(b);
-    list1.add(c);
-
-    System.out.print("All movie ID's from best to worse are:\n");
-    LinkedList.display(mergeKCounty(list1));
-  }
-}
-
-/*
-Output
-All movie ID's from best to worse are:
-11, 21, 23, 25, 41, 42, 51, 56, 66, 72
-*/
-```
-
-`LinkedList.java`
-
-```java
-import java.util.*;
-
-class LinkedListNode {
-    public int key;
-    public int data;
-    public LinkedListNode next;
-    public LinkedListNode arbitraryPointer;
-
-    public LinkedListNode(int data) {
-        this.data = data;
-        this.next = null;
-    }
-
-    public LinkedListNode(int key, int data) {
-        this.key = key;
-        this.data = data;
-        this.next = null;
-    }
-
-    public LinkedListNode(int data, LinkedListNode next) {
-        this.data = data;
-        this.next = next;
-    }
-
-    public LinkedListNode(int data, LinkedListNode next, LinkedListNode arbitraryPointer) {
-        this.data = data;
-        this.next = next;
-        this.arbitraryPointer = arbitraryPointer;
-    }
-}
-
-
-
-class LinkedList { 
-
-    public static LinkedListNode insertAtHead(LinkedListNode head, int data) {
-        LinkedListNode newNode = new LinkedListNode(data);
-        newNode.next = head;
-        return newNode;
-    }
-
-    public static LinkedListNode insertAtTail(LinkedListNode head, int data) {
-        LinkedListNode newNode = new LinkedListNode(data);
-        if (head == null) {
-            return newNode;
-        }
-        LinkedListNode temp = head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = newNode;
-        return head;
-    }
-
-    public static LinkedListNode insertAtTail(LinkedListNode head, LinkedListNode node)
-    {
-        if (head == null) {
-            return node;
-        }
-        LinkedListNode temp = head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = node;
-        return head;
-    }
-
-    public static LinkedListNode createLinkedList(ArrayList<Integer> lst) {
-        LinkedListNode head = null;
-        LinkedListNode tail = null;
-        for (Integer x : lst) {
-            LinkedListNode newNode = new LinkedListNode(x);
-            if (head == null) {
-                head = newNode;
-            } else {
-                tail.next = newNode;
-            }
-            tail = newNode;
-        }
-        return head;
-    }
-
-    public static LinkedListNode createLinkedList(int[] arr) {
-        LinkedListNode head = null;
-        LinkedListNode tail = null;
-        for (int i = 0; i < arr.length; ++i) {
-            LinkedListNode newNode = new LinkedListNode(arr[i]);
-            if (head == null) {
-                head = newNode;
-            } else {
-                tail.next = newNode;
-            }
-            tail = newNode;
-        }
-        return head;
-    }
-
-    public static LinkedListNode createRandomList(int length) {
-        LinkedListNode listHead = null;
-        Random generator = new Random();
-        for(int i = 0; i < length; ++i) {
-            listHead = insertAtHead(listHead, generator.nextInt(100));
-        }
-        return listHead;
-    }
-
-    public static ArrayList<Integer> toList(LinkedListNode head) {
-        ArrayList<Integer> lst = new ArrayList<Integer>();
-        LinkedListNode temp = head;
-        while (temp != null) {
-            lst.add(temp.data);
-            temp = temp.next;
-        }
-        return lst;
-    }
-
-    public static void display(LinkedListNode head) {
-        LinkedListNode temp = head;
-        while (temp != null) {
-            System.out.printf("%d", temp.data);
-            temp = temp.next;
-            if (temp != null) {
-              System.out.printf(", ");
-            }
-        }
-        System.out.println();
-    }  
-    
-
-    public static LinkedListNode mergeAlternating(LinkedListNode list1, LinkedListNode list2) {
-      if (list1 == null) {
-        return list2;
-      }
-
-      if (list2 == null) {
-        return list1;
-      }
-
-      LinkedListNode head = list1;
-
-      while (list1.next != null && list2 != null) {
-        LinkedListNode temp = list2;
-        list2 = list2.next;
-
-        temp.next = list1.next;
-        list1.next = temp;
-        list1 = temp.next;
-      }
-
-      if (list1.next == null) {
-        list1.next = list2;
-      }
-
-      return head;
-    }
-
-    static boolean isEqual(LinkedListNode list1, LinkedListNode list2) {
-        if (list1 == list2) {
-            return true;
-        }
-
-        while (list1 != null && list2 != null) {
-            if (list1.data != list2.data) {
-                return false;
-            }
-
-            list1 = list1.next;
-            list2 = list2.next;
-        }
-
-        return (list1 == list2);
-    }
-}
-```
 
 ### Complexity measures
 
@@ -457,6 +169,8 @@ The time complexity will be O(n×k<sup>2</sup>), where k is the number of the li
 O(1) , as constant space was utilized.
 
 </details>
+
+<hr>
 
 
 
