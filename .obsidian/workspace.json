@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
+                "file": "infrastructure/kafka/Kafka-3-Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
+                "file": "infrastructure/kafka/Kafka-3-Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
+                "file": "infrastructure/kafka/Kafka-3-Setup.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md"
+                "file": "infrastructure/kafka/Kafka-3-Setup.md"
               }
             }
           }
@@ -150,8 +150,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dd68f1365f052b62",
+  "active": "45ef5d7a09362cc9",
   "lastOpenFiles": [
+    "mixed/ssl-certs.md",
+    "mixed/markdown.md",
+    "README.md",
+    "System Design/tutorials/Netflix/Project Description For Netflix.md",
     "System Design/tutorials/Netflix/pics/Movie mapping to their ranks.png",
     "System Design/tutorials/Netflix/pics/Median Age-2.png",
     "System Design/tutorials/Netflix/pics/Median Age-1.png",
@@ -160,11 +164,10 @@
     "DSA/Hashing.md",
     "DSA/Graph.md",
     "OS/Some Useful Commands.md",
-    "System Design/tutorials/Netflix/Project Description For Netflix.md",
     "System Design/tutorials/Ubering",
-    "infrastructure/messaging/Kafka-3-Setup.md",
+    "infrastructure/kafka/Kafka-3-Setup.md",
     "infrastructure/docker/docker.md",
-    "infrastructure/messaging",
+    "infrastructure/kafka",
     "databases/postgres.md",
     "tools/homebrew.md",
     "System Design/tutorials/Netflix/pics/Storing sets in a key-value storage.png",
@@ -181,7 +184,6 @@
     "resources/images/combining similar groups.png",
     "System Design/Hexagonal Architecture/Food-Ordering-System.md",
     "Excalidraw/Food-Ordering-System 2023-05-09 23.17.52.excalidraw.md",
-    "README.md",
     "Excalidraw/Drawing 2023-05-09 07.45.30.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.svg",
@@ -195,7 +197,6 @@
     "Excalidraw/Scripts/Downloaded/Grid Selected Images.md",
     "Excalidraw/Scripts/Downloaded/Fixed inner distance.md",
     "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.md",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically.md",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md"
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically.md"
   ]
 }
