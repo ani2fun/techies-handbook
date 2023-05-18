@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "infrastructure/messaging/Kafka-3-Setup.md",
+                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "infrastructure/messaging/Kafka-3-Setup.md",
+                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "infrastructure/messaging/Kafka-3-Setup.md",
+                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "infrastructure/messaging/Kafka-3-Setup.md"
+                "file": "System Design/tutorials/Netflix/Project Description For Netflix.md"
               }
             }
           }
@@ -152,18 +152,22 @@
   },
   "active": "dd68f1365f052b62",
   "lastOpenFiles": [
+    "System Design/tutorials/Netflix/pics/Movie mapping to their ranks.png",
     "System Design/tutorials/Netflix/pics/Median Age-2.png",
     "System Design/tutorials/Netflix/pics/Median Age-1.png",
-    "infrastructure/docker/docker.md",
+    "System Design/tutorials/Netflix/pics/combining similar groups.png",
+    "System Design/tutorials/Netflix/pics/Combining lists of multiple ratings into one.png",
+    "DSA/Hashing.md",
+    "DSA/Graph.md",
+    "OS/Some Useful Commands.md",
+    "System Design/tutorials/Netflix/Project Description For Netflix.md",
+    "System Design/tutorials/Ubering",
     "infrastructure/messaging/Kafka-3-Setup.md",
+    "infrastructure/docker/docker.md",
     "infrastructure/messaging",
     "databases/postgres.md",
     "tools/homebrew.md",
-    "System Design/tutorials/Netflix/Project Description For Netflix.md",
-    "System Design/tutorials/Netflix/pics/Combining lists of multiple ratings into one.png",
-    "System Design/tutorials/Netflix/pics/Movie mapping to their ranks.png",
     "System Design/tutorials/Netflix/pics/Storing sets in a key-value storage.png",
-    "System Design/tutorials/Netflix/pics/combining similar groups.png",
     "System Design/tutorials/Netflix/pics",
     "System Design/tutorials/Netflix/local",
     "System Design/tutorials/Netflix/untitled folder",
@@ -173,7 +177,6 @@
     "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault",
     "Users/aniket/Development/Obsidian/obsidian-vault",
     "Users/aniket/Development/Obsidian",
-    "Users/aniket/Development",
     "pics/combining.md",
     "resources/images/combining similar groups.png",
     "System Design/Hexagonal Architecture/Food-Ordering-System.md",
@@ -181,13 +184,11 @@
     "README.md",
     "Excalidraw/Drawing 2023-05-09 07.45.30.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.md",
-    "DSA/Graph.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.svg",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
     "Excalidraw/Scripts/Downloaded/Slideshow.svg",
     "Excalidraw/Scripts/Downloaded/Slideshow.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap format.md",
     "Excalidraw/Scripts/Downloaded/Mindmap connector.md",
     "Excalidraw/Scripts/Downloaded/Fixed vertical distance.md",
@@ -195,8 +196,6 @@
     "Excalidraw/Scripts/Downloaded/Fixed inner distance.md",
     "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.md",
     "Excalidraw/Scripts/Downloaded/Expand rectangles vertically.md",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally.md",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md"
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md"
   ]
 }

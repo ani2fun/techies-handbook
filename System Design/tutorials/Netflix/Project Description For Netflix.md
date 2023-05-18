@@ -105,7 +105,7 @@ Let’s look at the following illustration to clarify this process:
 Let’s look at the code for the solution below:
 
 
-### [Feature-1-Code](https://github.com/ani2fun/java-kotlin-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_1/Solution.java)
+### [Feature-1-Code](https://github.com/ani2fun/cs-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_1/Solution.java)
 ### Complexity measures
 
 | **Time Complexity** | **Space complexity** |
@@ -160,7 +160,7 @@ Keep repeating the above step until one list points to a null value.
 Connect the non-null list to the merged one and return.
 Let’s look at the code for the solution below:
 
-### [Feature-2-Code](https://github.com/ani2fun/java-kotlin-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_2/_Main.java)
+### [Feature-2-Code](https://github.com/ani2fun/cs-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_2/_Main.java)
 
 
 ### Complexity measures
@@ -207,7 +207,7 @@ We can calculate the median of the current list of numbers using the top element
 Let’s look at the code for this solution below:
 
 
-### [Feature-3-Code](https://github.com/ani2fun/java-kotlin-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_3/MedianOfAges.java)
+### [Feature-3-Code](https://github.com/ani2fun/cs-journal/blob/main/java-playground/src/main/java/io/journal/sysdesign/tutorials/netflixing/feature_3/MedianOfAges.java)
 
 
 ### Complexity measures
