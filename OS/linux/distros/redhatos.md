@@ -44,3 +44,59 @@ Chip: Apple M1 Pro
 Memory: 32 GB
 macOS version: 13.3.1 (a)
 ```
+
+
+### Some commands to test after successful installation:
+
+#### dmidecode
+```console
+sudo dmidecode|more
+```
+output:
+```
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 3.3.0 present.
+Table at 0x26FDC3000.
+
+Handle 0x0000, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Apple Inc.
+	Product Name: Apple Virtualization Generic Platform
+	Version: 1
+	Serial Number: Virtualization-db087d0b-d366-40bc-809b-969690dcbe1e
+	UUID: 0b7d08db-66d3-bc40-809b-969690dcbe1e
+	Wake-up Type: Power Switch
+	SKU Number: Not Specified
+	Family: Not Specified
+...
+...
+...
+
+```
+
+#### uname -a
+
+```
+[aniket@m1 ~]$ uname -a
+Linux m1 5.14.0-284.11.1.el9_2.aarch64 #1 SMP PREEMPT_DYNAMIC Wed Apr 12 11:23:11 EDT 2023 aarch64 aarch64 aarch64 GNU/Linux
+```
+
+#### lsblk
+```
+[aniket@m1 ~]$ lsblk
+NAME             MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+vda              252:0    0   64G  0 disk 
+├─vda1           252:1    0  600M  0 part /boot/efi
+├─vda2           252:2    0    1G  0 part /boot
+└─vda3           252:3    0 62.4G  0 part 
+  ├─rhel_m1-root 253:0    0 37.6G  0 lvm  /
+  ├─rhel_m1-swap 253:1    0  6.4G  0 lvm  [SWAP]
+  └─rhel_m1-home 253:2    0 18.4G  0 lvm  /home
+vdb              252:16   0  7.4G  0 disk 
+```
+
+References:
+
+BLOG Video post: 
+https://developers.redhat.com/articles/2022/10/21/rhel-9-and-single-node-openshift-vms-macos-ventura#running_single_node_openshift_on_apple_silicon
