@@ -4,11 +4,7 @@
 
 **Why we need Hashing ?**
 
-Hashing is useful for searching. 
-
-We already know Linear search O(n) and Binary Search O(logn). We want still faster than this.
-
-So Idea of Hashing Technique is introduced. Using hashing technique the searching time can be achieved with O(1).
+To achieve faster search than Linear search O(n) and Binary Search O(logn), idea of Hashing Technique was introduced. Using hashing technique the searching time can be achieved with O(1).
 
 ![Hashing-1](/resources/Hashing/jpg/Hashing-1.jpeg)
 

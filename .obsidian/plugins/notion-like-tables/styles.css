@@ -1,20 +1,3 @@
-/* src/react/shared/icon/styles.css */
-.NLT__icon {
-  display: flex;
-}
-.NLT__icon--sm {
-  width: 0.9rem !important;
-  height: 0.9rem !important;
-}
-.NLT__icon--md {
-  width: 1rem !important;
-  height: 1rem !important;
-}
-.NLT__icon--lg {
-  width: 1.1rem !important;
-  height: 1.1rem !important;
-}
-
 /* src/react/shared/button/styles.css */
 .NLT__button {
   display: flex;
@@ -55,21 +38,6 @@
 /* src/react/table-app/row-options/styles.css */
 .NLT__row-options {
   padding-left: var(--nlt-spacing--md);
-}
-
-/* src/react/shared/menu/styles.css */
-.NLT__menu {
-  width: 0;
-  height: 0;
-}
-.NLT__menu-container {
-  background-color: var(--background-primary);
-  border: 1px solid var(--background-modifier-border);
-  box-shadow: 0 2px 8px var(--background-modifier-box-shadow);
-  z-index: var(--layer-menu);
-  position: absolute;
-  border-radius: 4px;
-  font-weight: 400;
 }
 
 /* src/react/shared/text/styles.css */
@@ -134,16 +102,6 @@
   padding: var(--nlt-spacing--md) var(--nlt-spacing--lg);
   border-top: 1px solid var(--background-modifier-border);
   border-bottom: 1px solid var(--background-modifier-border);
-}
-.NLT__sort-bubble {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  padding: 2px 6px;
-  border: 1px solid var(--background-modifier-border);
-  user-select: none;
-  background-color: var(--background-modifier-border);
 }
 
 /* src/react/table-app/function-cell/styles.css */
@@ -241,22 +199,9 @@
   margin: 0 10px 0 0;
 }
 
-/* src/react/shared/divider/styles.css */
-.NLT__hr {
-  margin: 0;
-  width: 100%;
-}
-
 /* src/react/table-app/tag-color-menu/styles.css */
 
 /* src/react/table-app/date-cell-edit/styles.css */
-.NLT__date-cell-edit input {
-  width: 100%;
-  height: 100%;
-  border: 1px solid var(--background-modifier-border);
-  padding: 5px;
-  background-color: var(--background-secondary);
-}
 .NLT__date-cell-edit input[aria-invalid=true] {
   outline: 2px solid var(--background-modifier-error);
   outline-offset: -2px;
@@ -307,13 +252,6 @@
 .NLT__header-menu {
   color: var(--text-normal);
 }
-.NLT__header-menu input {
-  background-color: var(--background-secondary);
-  border: 1px solid var(--background-modifier-border);
-  padding: 4px 10px;
-  font-size: 0.95rem;
-  width: 100%;
-}
 
 /* src/react/table-app/header-cell/styles.css */
 .NLT__th-container {
@@ -331,22 +269,6 @@
   text-overflow: ellipsis;
   user-select: none;
   padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
-}
-.NLT__th-resize-container {
-  position: relative;
-}
-.NLT__th-resize {
-  position: absolute;
-  left: -5px;
-  cursor: col-resize;
-  width: 5px;
-  height: 100%;
-}
-.NLT__th-resize:hover {
-  background-color: var(--interactive-accent);
-}
-.NLT__th-resize--active {
-  background-color: var(--interactive-accent);
 }
 
 /* src/react/table-app/styles.css */
@@ -436,6 +358,7 @@
 }
 .NLT__wrap-overflow {
   overflow-wrap: break-word;
+  overflow: hidden;
 }
 .NLT__hide-overflow {
   overflow: hidden;

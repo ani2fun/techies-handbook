@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3e241a893cd4fefe",
+        "id": "9363dd1270b852b6",
         "type": "tabs",
         "children": [
           {
-            "id": "dd68f1365f052b62",
+            "id": "52d69d9c03b2db16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "infrastructure/kafka/Kafka-3-Setup.md",
+                "file": "DSA/Recursion/Recursion.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "infrastructure/kafka/Kafka-3-Setup.md",
+                "file": "DSA/Recursion/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "infrastructure/kafka/Kafka-3-Setup.md",
+                "file": "DSA/Recursion/Recursion.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "infrastructure/kafka/Kafka-3-Setup.md"
+                "file": "DSA/Recursion/Recursion.md"
               }
             }
           }
@@ -150,53 +150,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "45ef5d7a09362cc9",
+  "active": "52d69d9c03b2db16",
   "lastOpenFiles": [
+    "resources/other/rhel-d5.png",
+    "resources/other/rhel-d4.png",
+    "resources/other/rhel-d2.png",
+    "resources/other/rhel-d3.png",
+    "resources/other/rhel-d2.1.png",
+    "resources/other/Screenshot 2023-05-29 at 16.10.50.png",
+    "resources/other/rhel9.2-d2.png",
+    "resources/other/rhel-d1.png",
+    "resources/other",
+    "OS/linux/distros/res/rhel-d1.png",
+    "OS/linux/distros/res/Screenshot 2023-05-29 at 15.20.54.png",
+    "OS/linux/distros/res",
+    "OS/linux/distros/redhatos.md",
+    "DSA/basics/interpVsCompiler.excalidraw.crswap",
+    "DSA/basics/interpVsCompiler.excalidraw",
+    "DSA/basics",
+    "DSA/Arrays/Arrays.excalidraw.crswap",
+    "DSA/Arrays/Arrays.excalidraw",
+    "DSA/Arrays",
+    "DSA/Recursion/Arrays",
+    "DSA/Recursion/recursion.excalidraw.crswap",
+    "DSA/Graph/Graph.md",
+    "DSA/Recursion/Recursion.md",
+    "DSA/Recursion.md",
+    "resources/recursion/simple_recursion_example_with_tracing.png",
+    "DSA/Hashing.md",
+    "resources/Graph/jpg/BFS.md",
+    "infrastructure/kafka/Kafka-3-Setup.md",
     "mixed/ssl-certs.md",
     "mixed/markdown.md",
     "README.md",
     "System Design/tutorials/Netflix/Project Description For Netflix.md",
-    "System Design/tutorials/Netflix/pics/Movie mapping to their ranks.png",
-    "System Design/tutorials/Netflix/pics/Median Age-2.png",
-    "System Design/tutorials/Netflix/pics/Median Age-1.png",
-    "System Design/tutorials/Netflix/pics/combining similar groups.png",
-    "System Design/tutorials/Netflix/pics/Combining lists of multiple ratings into one.png",
-    "DSA/Hashing.md",
-    "DSA/Graph.md",
     "OS/Some Useful Commands.md",
-    "System Design/tutorials/Ubering",
-    "infrastructure/kafka/Kafka-3-Setup.md",
     "infrastructure/docker/docker.md",
-    "infrastructure/kafka",
     "databases/postgres.md",
     "tools/homebrew.md",
-    "System Design/tutorials/Netflix/pics/Storing sets in a key-value storage.png",
-    "System Design/tutorials/Netflix/pics",
-    "System Design/tutorials/Netflix/local",
-    "System Design/tutorials/Netflix/untitled folder",
     "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault/resources/images/combining.md",
-    "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault/resources/images",
-    "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault/resources",
-    "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault",
-    "Users/aniket/Development/Obsidian/obsidian-vault",
-    "Users/aniket/Development/Obsidian",
     "pics/combining.md",
-    "resources/images/combining similar groups.png",
     "System Design/Hexagonal Architecture/Food-Ordering-System.md",
     "Excalidraw/Food-Ordering-System 2023-05-09 23.17.52.excalidraw.md",
     "Excalidraw/Drawing 2023-05-09 07.45.30.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.md",
-    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
-    "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
-    "Excalidraw/Scripts/Downloaded/Slideshow.svg",
     "Excalidraw/Scripts/Downloaded/Slideshow.md",
     "Excalidraw/Scripts/Downloaded/Mindmap format.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap connector.md",
-    "Excalidraw/Scripts/Downloaded/Fixed vertical distance.md",
-    "Excalidraw/Scripts/Downloaded/Grid Selected Images.md",
-    "Excalidraw/Scripts/Downloaded/Fixed inner distance.md",
-    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.md",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically.md"
+    "Excalidraw/Scripts/Downloaded/Mindmap connector.md"
   ]
 }
