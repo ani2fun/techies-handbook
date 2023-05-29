@@ -96,6 +96,17 @@ vda              252:0    0   64G  0 disk
 vdb              252:16   0  7.4G  0 disk 
 ```
 
+
+```
+[aniket@m1 ~]$ sudo nslookup m1.aniket.com
+Server:		fd0f:ee:b0::1
+Address:	fd0f:ee:b0::1#53
+
+Non-authoritative answer:
+Name:	m1.aniket.com
+Address: 199.59.243.223
+```
+
 References:
 
 BLOG Video post: 
