@@ -1,4 +1,4 @@
-# RedHat (rhel9.2)  installation on MacOS M1 (aarch64)
+# RedHat (rhel-9.2) VM installation on MacOS M1 (aarch64) using UTM
 
 1. Install UTM : https://mac.getutm.app/
    
