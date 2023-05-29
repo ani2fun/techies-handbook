@@ -1,42 +1,46 @@
-# RedHat (rhel-9.2) VM installation on MacOS M1 (aarch64) (Ventura: 13.3.1 (a)) using UTM
+# RedHat (RHEL-9.2) VM Installation on MacOS M1 (aarch64) using UTM
 
-1. Install UTM : https://mac.getutm.app/
+This article provides a step-by-step guide to installing Red Hat Enterprise Linux (RHEL) version 9.2 on a virtual machine (VM) running on a macOS M1 (aarch64) system using the UTM application. The UTM application allows you to create and manage virtual machines on your macOS system.
+
+1. The article assumes that UTM is already installed on your macOS M1 system. If you don’t have UTM installed, you can download it from the official website (https://mac.getutm.app/).
+2. Before proceeding with the RHEL installation, you need to download the RHEL 9.2 DVD ISO file for aarch64 architecture. You can download the ISO file from the Red Hat Developer website (https://developers.redhat.com/products/rhel/download). Please note that you may need to sign up on the website to access the download. ![rhel-1](/resources/other/rhel-d1.png)
    
-2. Download dvd iso aarch64 - https://developers.redhat.com/products/rhel/download.
-![rhel-1](/resources/other/rhel-d1.png)
-(You probably need to sign up to download.)
+3. Once you have UTM installed and the RHEL 9.2 ISO file downloaded, you can follow the steps below to create the VM and install RHEL 9.2:
+   1. Launch the UTM application and click on “Create new VM.”
+   2. Select “Virtualize” and choose the “Linux” option.
+   3. Tick the checkbox that says “Use Apple Virtualization” and click on “Continue.”
+   4. Click on the “Browse” button under Boot ISO Image and select the downloaded RHEL 9.2 ISO file.Then click on “Continue.”
+   5. Allocate memory (e.g., 8192 MB or 8 GB) and CPU (e.g., 8 cores) resources for the VM. Click on “Continue.”
+   6. Allocate storage (e.g., 64 GB) for the VM. Click on “Continue.”
+   7. (Optional) Assign a shared directory path for the VM. Click on “Continue.”
+   8. In the “Summary” window, you can change the default VM name from “Linux” to “rhel9.2” or any other desired name. Click “Save” to create the VM.
 
-3. Steps to create VM:
-   1. Click on Create new VM
-   2. Select Virtualize.
-   3. Select Linux.
-   4. Tick check-box "Use Apple Virtualization". Then Click on "Continue"
-   5. Click on Button "Browse" under Boot ISO Image. Then Click on "Continue"
-   6. Select the downloaded ISO image file. Then Click on "Continue"
-   7. Allocate memory 8192 (e.g. 8gb) and CPU (e.g. 8). Then Click on "Continue"
-   8. Allocate memory "Storage"=(e.g. 64gb). Then Click on "Continue".
-   9. (Optional) Assign shared directory path. Then Click on "Continue".
-   10. You will see "Summary" window. You may change the name from "Linux" to "rhel9.2" or whatever.
-   11. Click "Save".
+4. At this point, you have successfully created the VM. However, before proceeding with the installation, there are a few additional settings to adjust.
 
-4. At this point you have created the VM successfuly. But before continue to do the installation change few settings.
-
-5. Click on the "3 dots" for settings of UTM to get details about the VM you have just created.
-
-6. (Optional) Go to Network change config. Change network to Bridge instead of shared. this will make it appear on your Home network environment.
+5. Click on the “3 dots” icon in the UTM application to access the settings for the VM you just created.
+![rhel-2](/resources/other/rhel-d2.webp).
+6. (Optional)In the Network settings, change the configuration to “Bridge” instead of “Shared” to make the VM appear on your home network environment. Set the interface to “en0.”
    1. Set the interface to: `en0`
    2. ![rhel-3](/resources/other/rhel-d3.png)
 
 7. IMPORTANT STEP: 
-   1. There is a bug in the "UTM" application. Hence the created VM might not start. It is because of ordering iso-dvd-image and vm-image.
-   2. Look at the following image. Your newly creatd VM must appear before the "rhel9.2-aarch64-dvd.iso" image.
-   3. ![rhel-4](/resources/other/rhel-d4.png)
-   4. If this is not the case then delete the "rhel9.2-aarch64-dvd.iso" image and Re-Add it.
-   5. For Re adding just click on new and add it wherever it was located before. 
-   6. Correct order is like in following image:
-   7. ![rhel-5](/resources/other/rhel-d5.png)
+Currently due to a bug in the UTM application, the created VM may fail to start. This is because of the ordering of the ISO image and VM image. Refer to the provided image in the article. Ensure that your newly created VM appears before the “rhel9.2-aarch64-dvd.iso” image in the list.
+![rhel-4](/resources/other/rhel-d4.png)
+   1. If the order is incorrect, delete the “rhel9.2-aarch64-dvd.iso” image and re-add it. To re-add, click on “New” and locate the ISO file in its original location.
+   2. For Re adding just click on new and add it wherever it was located before.
+   3. The correct order should be as shown in the provided image.
+   4. ![rhel-5](/resources/other/rhel-d5.png)
 
 
-8. Launch your VM and the installation of RHEL9.2 will begin.
+8. Launch your VM, and the installation of RHEL 9.2 will begin.
+9. Follow the regular steps for installing Red Hat Linux, as you would with any new installation.
    
-9. Follow the steps as you create any new Redhat Linux installation.
+By following these steps, you will be able to successfully install Red Hat Enterprise Linux version 9.2 on a virtual machine running on your macOS M1 (aarch64) system using the UTM application.
+
+The system configuration used for testing in this article includes the following:
+```
+MacBook Pro
+Chip: Apple M1 Pro
+Memory: 32 GB
+macOS version: 13.3.1 (a)
+```
