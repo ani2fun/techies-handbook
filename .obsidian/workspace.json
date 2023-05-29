@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Recursion/Recursion.md",
+                "file": "OS/linux/distros/redhatos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Recursion/Recursion.md",
+                "file": "OS/linux/distros/redhatos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Recursion/Recursion.md",
+                "file": "OS/linux/distros/redhatos.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Recursion/Recursion.md"
+                "file": "OS/linux/distros/redhatos.md"
               }
             }
           }
@@ -152,6 +152,7 @@
   },
   "active": "52d69d9c03b2db16",
   "lastOpenFiles": [
+    "DSA/Recursion/Recursion.md",
     "resources/other/rhel-d5.png",
     "resources/other/rhel-d4.png",
     "resources/other/rhel-d2.png",
@@ -174,9 +175,7 @@
     "DSA/Recursion/Arrays",
     "DSA/Recursion/recursion.excalidraw.crswap",
     "DSA/Graph/Graph.md",
-    "DSA/Recursion/Recursion.md",
     "DSA/Recursion.md",
-    "resources/recursion/simple_recursion_example_with_tracing.png",
     "DSA/Hashing.md",
     "resources/Graph/jpg/BFS.md",
     "infrastructure/kafka/Kafka-3-Setup.md",
