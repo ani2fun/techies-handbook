@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9363dd1270b852b6",
+        "id": "3fda802c3d9507b4",
         "type": "tabs",
         "children": [
           {
-            "id": "52d69d9c03b2db16",
+            "id": "f97209eed94d3a26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "OS/linux/distros/redhatos.md",
-                "mode": "source",
-                "source": false
+                "file": "DSA/basics/2.2.up&downcasting.md"
               }
             }
           }
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 508.5
   },
   "right": {
     "id": "77dcfc560922edad",
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/linux/distros/redhatos.md",
+                "file": "DSA/basics/2.2.up&downcasting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/linux/distros/redhatos.md",
+                "file": "DSA/basics/2.2.up&downcasting.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/linux/distros/redhatos.md"
+                "file": "DSA/basics/2.2.up&downcasting.md"
               }
             }
           }
@@ -150,8 +148,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "52d69d9c03b2db16",
+  "active": "45ef5d7a09362cc9",
   "lastOpenFiles": [
+    "DSA/basics/Untitled-1.excalidraw",
+    "DSA/basics/2.2.up&downcasting.md",
+    "DSA/basics/2.1.data_types.excalidraw.md",
+    "DSA/basics/1.jvm_architecture.excalidraw.md",
+    "DSA/basics/2.interpVsCompiler.excalidraw",
+    "DSA/basics/3.OperatorsandExpression.excalidraw.md",
+    "DSA/basics/OperatorsandExpression.canvas",
+    "DSA/basics/regex.md",
+    "DSA/basics/jvmarch.excalidraw.md",
     "resources/other/rhel-d2.jpg",
     "resources/other/rhel-d2.webp",
     "DSA/Recursion/Recursion.md",
@@ -164,11 +171,9 @@
     "resources/other/rhel9.2-d2.png",
     "resources/other/rhel-d1.png",
     "resources/other",
-    "OS/linux/distros/res/rhel-d1.png",
     "OS/linux/distros/res",
     "OS/linux/distros/redhatos.md",
     "DSA/basics/interpVsCompiler.excalidraw.crswap",
-    "DSA/basics/interpVsCompiler.excalidraw",
     "DSA/basics",
     "DSA/Arrays/Arrays.excalidraw.crswap",
     "DSA/Arrays/Arrays.excalidraw",
@@ -191,12 +196,6 @@
     "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault/resources/images/combining.md",
     "pics/combining.md",
     "System Design/Hexagonal Architecture/Food-Ordering-System.md",
-    "Excalidraw/Food-Ordering-System 2023-05-09 23.17.52.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-09 07.45.30.excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/Connect elements.md",
-    "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
-    "Excalidraw/Scripts/Downloaded/Slideshow.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap connector.md"
+    "Excalidraw/Food-Ordering-System 2023-05-09 23.17.52.excalidraw.md"
   ]
 }
