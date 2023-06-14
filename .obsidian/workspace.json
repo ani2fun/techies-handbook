@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3fda802c3d9507b4",
+        "id": "82b53b5974897b94",
         "type": "tabs",
         "children": [
           {
-            "id": "f97209eed94d3a26",
+            "id": "12e918ba457e46a1",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "DSA/basics/2.2.up&downcasting.md"
+                "file": "DSA/basics/3.OperatorsandExpression.excalidraw.md"
               }
             }
           }
@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 508.5
+    "width": 368.5
   },
   "right": {
     "id": "77dcfc560922edad",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/basics/2.2.up&downcasting.md",
+                "file": "DSA/basics/3.OperatorsandExpression.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/basics/2.2.up&downcasting.md",
+                "file": "DSA/basics/3.OperatorsandExpression.excalidraw.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/basics/2.2.up&downcasting.md"
+                "file": "DSA/basics/3.OperatorsandExpression.excalidraw.md"
               }
             }
           }
@@ -148,16 +148,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "45ef5d7a09362cc9",
+  "active": "12e918ba457e46a1",
   "lastOpenFiles": [
-    "DSA/basics/Untitled-1.excalidraw",
+    "DSA/basics/Learn the Basics of Regular Expressions.md",
+    "DSA/basics/Learn the Basics of Regular Expressions_ Introduction to Regular Expressions Cheatsheet _ Codecademy.pdf",
+    "DSA/basics/regex.md",
+    "DSA/basics/2.interpVsCompiler.excalidraw",
     "DSA/basics/2.2.up&downcasting.md",
+    "DSA/basics/Untitled-1.excalidraw",
     "DSA/basics/2.1.data_types.excalidraw.md",
     "DSA/basics/1.jvm_architecture.excalidraw.md",
-    "DSA/basics/2.interpVsCompiler.excalidraw",
     "DSA/basics/3.OperatorsandExpression.excalidraw.md",
     "DSA/basics/OperatorsandExpression.canvas",
-    "DSA/basics/regex.md",
     "DSA/basics/jvmarch.excalidraw.md",
     "resources/other/rhel-d2.jpg",
     "resources/other/rhel-d2.webp",
@@ -178,8 +180,6 @@
     "DSA/Arrays/Arrays.excalidraw.crswap",
     "DSA/Arrays/Arrays.excalidraw",
     "DSA/Arrays",
-    "DSA/Recursion/Arrays",
-    "DSA/Recursion/recursion.excalidraw.crswap",
     "DSA/Graph/Graph.md",
     "DSA/Recursion.md",
     "DSA/Hashing.md",
@@ -195,7 +195,6 @@
     "tools/homebrew.md",
     "Users/aniket/Development/Obsidian/obsidian-vault/obsidian-vault/resources/images/combining.md",
     "pics/combining.md",
-    "System Design/Hexagonal Architecture/Food-Ordering-System.md",
-    "Excalidraw/Food-Ordering-System 2023-05-09 23.17.52.excalidraw.md"
+    "System Design/Hexagonal Architecture/Food-Ordering-System.md"
   ]
 }
